@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primicias-ANIME</title>
+    <title>biblotec</title>
 
     <!-- PrimeNG y PrimeIcons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeng@15.2.0/resources/themes/lara-light-indigo/theme.css">
@@ -12,71 +12,88 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeicons@6.0.0/primeicons.css">
 </head>
 
+
+
 <body>
     <!-- Título Principal -->
     <header>
-        <h1 style="text-align: center; font-size: 2.5rem; margin: 20px 0;">PRIMICIA:Anime <i class="pi pi-spin pi-cog" style="font-size: 2rem"></i></h1>
-        
+        <h1 style="text-align: center; font-size: 2.5rem; margin: 20px 0;">Bliblotec<i class="pi pi-spin pi-cog " style="font-size: 2rem"></i></h1>
+        <div class="grid p-2 justify-content-center align-items-center gap-3 flex-wrap">
+            <p-button label="Te gusto" [raised]="true" />
+            <p-button label="comparte" [raised]="true" severity="secondary" />
+            <p-button label="libros" [raised]="true" severity="success" />
+            <p-button label="Informacion" [raised]="true" severity="info" />
+            <p-button label="ibicacion" [raised]="true" severity="warning" />
+            <p-button label="Ayuda" [raised]="true" severity="help" />
+            <p-button label="contacto" [raised]="true" severity="danger" />
+            <p-button label="sobre nosotros" [raised]="true" severity="contrast" />
+            </div>
     </header>
 
     <!-- Cards -->
     <div class="card-container">
         <!-- Card  -->
-        <p-card header="Autor de Oshi no Ko critica a los haters" subheader="Oshi no Ko" [style]="{ width: '300px', backgroundColor: '#d6eaf8 ', color: '#1c2833 ' }">
+        <p-card header="cien años de soledad " subheader="Gabriel García Márquez" [style]="{ width: '300px', backgroundColor: '#d6eaf8 ', color: '#1c2833 ' }">
             <ng-template pTemplate="header">
-                <img alt="Messi Card" src="https://www.hindustantimes.com/ht-img/img/2023/08/11/1600x900/Oshi_no_Ko_1688028588321_1691746476743.png" />
+                <img alt="Messi Card" src="https://www.libreriaespanola.com/wp-content/uploads/2024/04/90069678.jpg" />
             </ng-template>
             <p>
-                Akasaka, el guionista de la obra, confesó que estas dinámicas no son ajenas a su propia experiencia. «Los artistas y los creadores están muy expuestos al escrutinio público, y eso los convierte en blanco de calumnias. Es algo con lo que me puedo identificar, lo que hizo que escribir sobre ello fuera un poco más fácil», explicó.
+                Una saga mágica que narra la historia de la familia Buendía en el pueblo de Macondo, atrapada en un ciclo de amores, guerras y tragedias. Mezcla lo real con lo fantástico, explorando temas como la soledad, el destino y la memoria.
             </p>
             <ng-template pTemplate="footer">
                 <div class="flex justify-content-center align-items-center mt-1" style="height: 80px">
-                    <p-button 
-                        label="ver MAS Chisme" 
-                        severity="success" 
-                        styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-pink-500">
-                        <i class="pi pi-download"></i> <!-- Ícono pi-download -->
-                    </p-button>
+                    <a href="https://www.biografiasyvidas.com/biografia/g/garcia_marquez.htm" target="_blank" style="text-decoration: none;">
+                        <p-button 
+                            label="Ver MÁS Chisme" 
+                            severity="success" 
+                            styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-blue-900">
+                            <i class="pi pi-thumbs-up-fill"></i> <!-- Ícono pi-thumbs-up-fill -->
+                        </p-button>
+                    </a>
                 </div>
             </ng-template>
         </p-card>
     
         <!-- Card -->
-        <p-card header="VISA no quiere que los otakus se casen" subheader="VISA" [style]="{ width: '300px', backgroundColor: '#e8daef ', color: '#1c2833 ' }">
+        <p-card header="1984" subheader="George Orwell" [style]="{ width: '300px', backgroundColor: '#e8daef ', color: '#1c2833 ' }">
             <ng-template pTemplate="header">
-                <img alt="VISA" src="https://i.gifer.com/ax.gif" />
+                <img alt="VISA" src="https://anylang.net/sites/default/files/styles/book_image/public/covers/1984.jpg?itok=IVpqqKj5" />
             </ng-template>
             <p>
-                Aellune, un servicio de matchmaking para otakus, anunció el pasado 14 de diciembre que VISA suspendería los pagos con tarjeta de crédito en su sitio web. Esta decisión, que formaría parte de una serie de restricciones impuestas por procesadores de pago internacionales, causó controversia tanto en la comunidad otaku como en plataformas similares en Japón. Sin embargo, en una actualización del 16 de diciembre, Aellune informó que Visa decidió permitir nuevamente las transacciones tras una reacción pública significativa.
+                Una distopía donde el Gran Hermano vigila todo y el gobierno manipula la verdad para mantener el control. Winston Smith, un hombre común, lucha por la libertad en un mundo opresivo, lleno de censura y represión.
             </p>
             <ng-template pTemplate="footer">
                 <div class="flex justify-content-center align-items-center mt-1" style="height: 80px">
-                    <p-button 
-                        label="ver MAS Chisme" 
-                        severity="success" 
-                        styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-red-900">
-                        <i class="pi pi-crown"></i> <!-- Ícono pi-crown -->
-                    </p-button>
+                    <a href="https://www.biography.com/authors-writers/george-orwell" target="_blank" style="text-decoration: none;">
+                        <p-button 
+                            label="Ver MÁS Chisme" 
+                            severity="success" 
+                            styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-blue-900">
+                            <i class="pi pi-thumbs-up-fill"></i> <!-- Ícono pi-thumbs-up-fill -->
+                        </p-button>
+                    </a>
                 </div>
             </ng-template>
         </p-card>
     
         <!-- Card -->
-        <p-card header="Sousou no Frieren fue lo mejor de 2024 según IGN" subheader="Sousou no Frieren" [style]="{ width: '300px', backgroundColor: '#a3e4d7 ', color: '#1c2833 ' }">
+        <p-card header="Fundacion" subheader="Isaac Asimov" [style]="{ width: '300px', backgroundColor: '#a3e4d7 ', color: '#1c2833 ' }">
             <ng-template pTemplate="header">
-                <img alt="Sousou no Frieren" src="https://i.gifer.com/3uvT.gif" />
+                <img alt="Sousou no Frieren" src="https://swordsblasters.com/wp-content/uploads/2021/05/fundacion-e-imperio-1.png" />
             </ng-template>
             <p>
-                IGN, uno de los portales de entretenimiento más reconocidos a nivel mundial, realizó recientemente una encuesta para determinar cuál fue el mejor anime del año 2024. La votación, que acumuló un total de 4,083 participaciones, mostró un claro favorito: Sousou no Frieren, con un abrumador 59.3% de los votos. La competencia incluyó otras producciones destacadas como Delicious in Dungeon, The Apothecary Diaries y la segunda temporada de Oshi no Ko.
+                Una serie de novelas de ciencia ficción que siguen el plan de Hari Seldon para salvar la humanidad tras la caída del Imperio Galáctico. Con intrigas políticas y avances científicos, plantea un fascinante futuro de civilizaciones en conflicto.
             </p>
             <ng-template pTemplate="footer">
                 <div class="flex justify-content-center align-items-center mt-1" style="height: 80px">
-                    <p-button 
-                        label="ver MAS Chisme" 
-                        severity="success" 
-                        styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-blue-900">
-                        <i class="pi pi-thumbs-up-fill"></i> <!-- Ícono pi-thumbs-up-fill -->
-                    </p-button>
+                    <a href="https://www.britannica.com/biography/Isaac-Asimov" target="_blank" style="text-decoration: none;">
+                        <p-button 
+                            label="Ver MÁS Chisme" 
+                            severity="success" 
+                            styleClass="w-full p-3 text-xl font-bold border-round shadow-lg hover:scale-105 transition-transform bg-blue-900">
+                            <i class="pi pi-thumbs-up-fill"></i> <!-- Ícono pi-thumbs-up-fill -->
+                        </p-button>
+                    </a>
                 </div>
             </ng-template>
         </p-card>
@@ -85,35 +102,29 @@
 
     <!-- noticias relevante -->
     <div class="content noticias">
-        <h2 class="section-title">Noticia mas relevante <i class="pi pi-spin pi-cog" style="font-size: 2rem"></i> </h2>
-        <p >HUNTER x HUNTER promete otros 50 capítulos</p>
-        <p class="highlight-text">«Estoy revisando y ajustando los diálogos de los personajes y la cronología de los próximos 50 capítulos de Hunter Hunter, que se publicarán en el futuro. En cuanto termine esa labor, reanudaré el trabajo que he estado interrumpiendo, como añadir entintado a los manuscritos».</p>
+        <h2 class="section-title">Han Kang: la ganfadora del año<i class="pi pi-spin pi-cog" style="font-size: 2rem"></i> </h2>
+        <p >La escritora surcoreana Han Kang ha sido galardonada con el Premio Nobel de Literatura 2024. 
+            CADENA SER
+             Nacida en 1970 en Gwangju, Corea del Sur, es reconocida por su "intensa prosa poética que confronta traumas históricos y expone la fragilidad de la vida humana". Entre sus obras más destacadas se encuentra "La vegetariana", publicada en 2007, que explora la vida de una mujer que decide dejar de comer carne, enfrentando la incomprensión de su entorno. Han Kang es la primera mujer asiática en recibir este prestigioso galardón.</p>
+        <p class="highlight-text">Han Kang</p>
         <div class="history-highlight">
-            <img src="https://i.gifer.com/7b53.gif" alt="noticias" class="HUNTER x HUNTER">
-            <blockquote class="quote">Aunque la fecha de regreso de HUNTER x HUNTER sigue siendo incierta, los fans mantienen la esperanza de que Togashi logre superar sus dificultades y continuar esta historia que ha capturado la imaginación de millones. Por ahora, la paciencia y el apoyo de la comunidad parecen ser la clave para acompañar al autor en este desafío.</blockquote>
+            <img src="https://imagenes.primicias.ec/files/content_image_simple_414_238/uploads/2024/10/10/6707b9640b377.jpeg" alt="noticias" class="HUNTER x HUNTER">
+            <blockquote class="quote">Han Kang, escritora surcoreana ganadora del Premio Nobel de Literatura 2024, es conocida por su profunda capacidad para explorar la fragilidad humana y los traumas históricos a través de una prosa poética y conmovedora. Nacida en 1970 en Gwangju, Corea del Sur, su obra más icónica, La vegetariana, recibió el Premio Man Booker International en 2016 y marcó un hito en la literatura contemporánea al abordar temas de identidad, resistencia y desconexión social.</blockquote>
         </div>
+        
+        <div class="grid p-2 justify-content-center gap-3 flex-wrap">
+            <p-button icon="pi pi-check" [rounded]="true" [text]="true" />
+            <p-button icon="pi pi-bookmark" [rounded]="true" [text]="true" severity="secondary" />
+            <p-button icon="pi pi-search" [rounded]="true" [text]="true" severity="success" />
+            <p-button icon="pi pi-user" [rounded]="true" [text]="true" severity="info" />
+            <p-button icon="pi pi-bell" [rounded]="true" [text]="true" severity="warning" />
+            <p-button icon="pi pi-heart" [rounded]="true" [text]="true" severity="help" />
+            <p-button icon="pi pi-times" [rounded]="true" [text]="true" severity="danger" />
+            <p-button label="Te gusto" [raised]="true" />
+            </div>
     </div>
 
-    <!-- Carrusel -->
-<div class="carousel-container" style="max-width: 600px; margin: auto;">
-    <p-carousel 
-        [value]="images" 
-        [numVisible]="1" 
-        [numScroll]="1" 
-        [circular]="true" 
-        [autoplay]="true" 
-        [autoplayInterval]="3000"
-        [responsiveOptions]="responsiveOptions">
-        
-        <ng-template pTemplate="item" let-item>
-            <div class="carousel-item" style="width: 100%; height: 400px;">
-                <img [src]="item" alt="GIF Animado" class="carousel-img" />
-            </div>
-        </ng-template>
-
-    </p-carousel>
-</div>
-
+    
 
     <!-- Formulario de contacto -->
     <div class="container">
@@ -186,6 +197,22 @@
             { breakpoint: '480px', numVisible: 1, numScroll: 1 }
         ];
     </script>
+    <!-- Galería -->
+  <div class="flex justify-content-center align-items-center mt-1" style="height: 80px">
+    <p-galleria [value]="galleryImages" [responsiveOptions]="responsiveOptions" [numVisible]="3" [circular]="true" style="max-width: 640px">
+      <ng-template pTemplate="item" let-item>
+        <img [src]="item.image" [alt]="item.alt" style="width: 100%; max-height: 300px;" /> <!-- Tamaño ajustado -->
+      </ng-template>
+      <ng-template pTemplate="thumbnail" let-item>
+        <img [src]="item.thumbnailImage" [alt]="item.alt" style="max-height: 100px;" /> <!-- Tamaño ajustado -->
+      </ng-template>
+    </p-galleria>
+  </div>
+
+
+  
+        
 </body>
+
 
 </html>

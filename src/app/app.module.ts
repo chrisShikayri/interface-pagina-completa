@@ -7,14 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
-
-
+import { GalleriaModule } from 'primeng/galleria';
+import { ImageModule } from 'primeng/image';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +25,8 @@ import { ButtonModule } from 'primeng/button';
     ReactiveFormsModule,
     CardModule,
     ButtonModule,
+    GalleriaModule,
+    ImageModule
     //PrimeNGModule
   ],
   providers: [],
