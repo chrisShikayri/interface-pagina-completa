@@ -9,8 +9,7 @@ import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { GalleriaModule } from 'primeng/galleria';
 import { ImageModule } from 'primeng/image';
-
-
+import { Toolbar, ToolbarModule } from 'primeng/toolbar';
 
 @NgModule({
   declarations: [
@@ -26,7 +25,9 @@ import { ImageModule } from 'primeng/image';
     CardModule,
     ButtonModule,
     GalleriaModule,
-    ImageModule
+    ImageModule,
+    CarouselModule,
+    ToolbarModule
     //PrimeNGModule
   ],
   providers: [],
